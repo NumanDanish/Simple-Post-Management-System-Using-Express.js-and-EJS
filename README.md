@@ -36,9 +36,9 @@ The purpose of this project is to learn how to build RESTful applications, rende
 ---
 
 ## 🖼️ Screenshots
+<img width="959" height="501" alt="edi" src="https://github.com/user-attachments/assets/8e371de9-f58f-471e-984f-c781bf4b6673" />
+<img width="959" height="501" alt="seede" src="https://github.com/user-attachments/assets/96f78150-d242-40a3-a603-fdbf20ecbba6" />
+<img width="943" height="318" alt="post1" src="https://github.com/user-attachments/assets/920fc302-6081-47fb-b3e7-5d6e159973cd" />
+<img width="959" height="502" alt="cp" src="https://github.com/user-attachments/assets/dc5a949d-361b-45d5-bf49-15a80c116c79" />
 
-You can include screenshots here if you'd like. For example:
 
-html
-<!-- Example (remove the triple backticks if adding real images) -->
-<img src="screenshots/homepage.png" alt="Homepage" width="600">
