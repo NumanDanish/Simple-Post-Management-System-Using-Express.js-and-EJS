@@ -54,6 +54,12 @@ Handling req.body for partial updates
 Use of method-override for supporting PATCH via HTML forms
 
 RESTful architecture: supporting fine-grained updates with PATCH (vs. PUT for full updates)
+
+
+Update: Delete Feature Added
+In this update, a Delete functionality has been implemented to allow users to remove individual posts. A Delete button has been added next to the existing Details and Edit options for each post, all aligned in a single row for improved user experience and accessibility. The delete action is triggered via a POST request using the _method=DELETE convention, ensuring RESTful compliance in the routing logic. Additionally, styling was applied to the button to maintain a consistent look and feel with the existing UI components. This feature enhances post management capabilities and provides a complete CRUD interface.
+
+
 ## 🖼️ Screenshots
 <img width="959" height="501" alt="edi" src="https://github.com/user-attachments/assets/8e371de9-f58f-471e-984f-c781bf4b6673" />
 <img width="959" height="501" alt="seede" src="https://github.com/user-attachments/assets/96f78150-d242-40a3-a603-fdbf20ecbba6" />
