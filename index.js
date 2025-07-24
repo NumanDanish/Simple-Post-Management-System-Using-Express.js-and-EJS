@@ -24,17 +24,17 @@ let posts = [
     {
         id : uuidv4(),
         username : "Numan",
-        content : "This is my code",
+        content : "Hi, I’m Mohammad Numan, a passionate and detail-oriented Software Engineering student at UET Lahore. I enjoy building creative and functional solutions through programming, with hands-on experience in languages like Python, Java, and C++. I’m also an active member of student societies, where I contribute to organizing events and managing documentation. My goal is to continuously grow in the tech field and make a meaningful impact through innovation and collaboration.",
     },
     {
         id : uuidv4(),
         username : "khan",
-        content : "How are You",
+        content : "I'm deeply interested in backend development, where logic, structure, and performance come together to power great user experiences. I enjoy working with Node.js, Express, MongoDB, and RESTful APIs to build robust, secure, and scalable systems. Solving real-world problems through code, optimizing database interactions, and ensuring smooth server-side operations is where I find my passion. Always eager to learn more and take on challenging backend projects that help me grow and contribute meaningfully.",
     },
     {
         id : uuidv4(),
         username : "Danish",
-        content : "Football is my favorite",
+        content : "Love is not just a feeling — it’s a choice we make every day, It’s about patience when times get tough, support when the world feels heavy, and understanding even when words fall short. Real love doesn’t fade; it grows through kindness, trust, and presence. Sometimes it’s loud and full of laughter, other times it’s quiet and comforting like a hand held in silence. In the end, love is the most powerful connection we can share — with others, and with ourselves",
     }
 ];
 
