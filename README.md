@@ -34,7 +34,26 @@ The purpose of this project is to learn how to build RESTful applications, rende
 5. Styling is handled using static CSS files inside a `Public` folder.
 
 ---
+✏️ Recent Update: PATCH Route for Content Update
+A new feature was added to support updating only the content of an existing post without affecting the rest of its data. This was implemented using a PATCH request, which aligns with RESTful practices where partial updates are needed.
 
+✅ What’s New:
+Added a PATCH /posts/:id route that:
+
+Locates the specific post using req.params.id
+
+Updates only the content property using data from req.body
+
+Sends back the updated post as a JSON response
+
+🔧 Technical Concepts Introduced:
+app.patch() method in Express.js
+
+Handling req.body for partial updates
+
+Use of method-override for supporting PATCH via HTML forms
+
+RESTful architecture: supporting fine-grained updates with PATCH (vs. PUT for full updates)
 ## 🖼️ Screenshots
 <img width="959" height="501" alt="edi" src="https://github.com/user-attachments/assets/8e371de9-f58f-471e-984f-c781bf4b6673" />
 <img width="959" height="501" alt="seede" src="https://github.com/user-attachments/assets/96f78150-d242-40a3-a603-fdbf20ecbba6" />
