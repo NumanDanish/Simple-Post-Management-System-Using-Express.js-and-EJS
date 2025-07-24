@@ -82,6 +82,26 @@ a:hover {
     color: white;
 }
 
+button.delete-btn {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    display: inline-block;
+    margin-right: 10px;
+    background-color: transparent;
+    border: 1px solid #3498db;
+    cursor: pointer;
+}
+
+button.delete-btn:hover {
+    background-color: #9c0909;
+    color: white;
+}
+
+
 /* Create new post button */
 body > a:last-child {
     background-color: #27ae60;
