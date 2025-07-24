@@ -8,11 +8,12 @@
 </head>
 <body>
     <h1>Edit Post</h1>
-    <p>Post id: &nbsp;&nbsp;&nbsp;&nbsp; <%= post.id %> </p>
+    <p>Post id: &nbsp;&nbsp;&nbsp;&nbsp; <%=post.id%> </p>
     <p>Username: <%= post.username %></p>
-    <textarea name="content" id="" rows="5" cols="40"> <%= post.content %></textarea><br>
-    <button>Update</button>
-
+    <form method="post" action="/posts/<%=post.id%>?_method=PATCH">
+        <textarea rows="5" cols="40" name="content"><%=post.content%></textarea><br>
+        <button>Update</button>
+    </form>
     <a href="http://localhost:8080/posts"> Back to Posts</a>
 
 </body>
